@@ -10,7 +10,7 @@ CREATE TABLE IF NOT EXISTS task_app.task (
 `updated_at` datetime DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP,
 `created_at` datetime DEFAULT CURRENT_TIMESTAMP,
 PRIMARY KEY (`id`)
-) ENGINE=InnoDB AUTO_INCREMENT=17 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+) ENGINE=InnoDB AUTO_INCREMENT=1 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
 
 INSERT INTO task_app.task (`task_name`,`task_description`,`due_date`,`completed_at`,`deleted_at`,`updated_at`,`created_at`) VALUES ('initialize docker ','get test project ready','2023-09-06 10:49:00',NULL,NULL,'2023-09-06 10:49:22','2023-09-06 10:49:22');
 INSERT INTO task_app.task (`task_name`,`task_description`,`due_date`,`completed_at`,`deleted_at`,`updated_at`,`created_at`) VALUES ('init database for testing purposes','init','2023-09-06 10:49:00',NULL,NULL,'2023-09-06 10:49:39','2023-09-06 10:49:39');
